@@ -588,7 +588,7 @@
 		OBJ_97 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		OBJ_98 /* Materialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materialize.swift; sourceTree = "<group>"; };
 		OBJ_99 /* Maybe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maybe.swift; sourceTree = "<group>"; };
-		"RxKeyboard::RxKeyboard::Product" /* RxKeyboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"RxKeyboard::RxKeyboard::Product" /* RxKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"RxSwift::RxCocoa::Product" /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"RxSwift::RxCocoaRuntime::Product" /* RxCocoaRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoaRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"RxSwift::RxSwift::Product" /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -991,7 +991,7 @@
 			path = ".build/checkouts/RxSwift.git--5214619868639177420/Sources/RxSwift";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -1001,7 +1001,6 @@
 				OBJ_12 /* Dependencies */,
 				OBJ_285 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_7 /* Sources */ = {
@@ -1137,7 +1136,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_285 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1592,6 +1591,7 @@
 		OBJ_407 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 422;
 				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1618,6 +1618,7 @@
 		OBJ_408 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 422;
 				DEFINES_MODULE = NO;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1644,6 +1645,7 @@
 		OBJ_419 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 422;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1671,6 +1673,7 @@
 		OBJ_420 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 422;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1698,6 +1701,7 @@
 		OBJ_432 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 422;
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
@@ -1707,6 +1711,7 @@
 		OBJ_433 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CURRENT_PROJECT_VERSION = 422;
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
